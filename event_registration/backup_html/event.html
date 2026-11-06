@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+
+<h2>Register for Event</h2>
+
+<form action="event_register.php" method="POST">
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+    <input type="text" name="phone" placeholder="Phone Number" required><br><br>
+
+    <select name="event_name" required>
+        <option value="">Select Event</option>
+        <option value="Tech Talk">Tech Talk</option>
+        <option value="Workshop">Workshop</option>
+        <option value="Hackathon">Hackathon</option>
+    </select><br><br>
+
+    <button type="submit">Register Event</button>
+</form>
+
+</body>
+</html>
